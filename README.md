@@ -1,19 +1,16 @@
-<!-- HEADER -->
+<!-- Header -->
 <div align="center">
 
-```
-██╗    ██╗██╗███╗   ██╗ ██████╗ ██████╗ ██████╗ ███████╗██╗  ██╗ ██████╗
-██║    ██║██║████╗  ██║██╔════╝██╔═══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔═══██╗
-██║ █╗ ██║██║██╔██╗ ██║██║     ██║   ██║██║  ██║█████╗   ╚███╔╝ ██║   ██║
-██║███╗██║██║██║╚██╗██║██║     ██║   ██║██║  ██║██╔══╝   ██╔██╗ ██║   ██║
-╚███╔███╔╝██║██║ ╚████║╚██████╗╚██████╔╝██████╔╝███████╗██╔╝ ██╗╚██████╔╝
- ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝
-```
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:7B2FBE&height=200&section=header&text=wincodex0&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20·%20JS%20/%20TS%20/%20React%20/%20Laravel%20/%20PHP&descAlignY=58&descSize=16&descColor=ccf2ff" />
 
-# Hey, I'm **wincodex0** 👋
-### Full Stack Developer · JS / TS / React / Laravel / PHP · Open to Freelance
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=false&width=600&lines=Building+things+that+matter+on+the+web+%F0%9F%9A%80;React+%7C+Vue.js+%7C+Laravel+%7C+Node.js+%7C+NestJS;Clean+code.+Scalable+systems.+Real+results.;Open+to+Freelance+%F0%9F%94%93+%E2%80%94+Let%27s+work+together!)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+things+that+matter+on+the+web;React+%7C+Vue.js+%7C+Laravel+%7C+Node.js;HTML+%7C+CSS+%7C+JavaScript+%7C+Python+%7C+PHP;Clean+code.+Scalable+systems.+Real+results.;Open+to+Freelance+%F0%9F%94%93)](https://git.io/typing-svg)
+<br/>
+
+![Working](https://img.shields.io/badge/Status-Working-brightgreen?style=flat-square&logo=statuspage)
+![Freelance](https://img.shields.io/badge/Freelance-Open-00D9FF?style=flat-square&logo=freelancer)
+![Location](https://img.shields.io/badge/Location-Philippines-red?style=flat-square&logo=googlemaps&logoColor=white)
+![Profile Views](https://komarev.com/ghpvc/?username=Wincodex0&color=00D9FF&style=flat-square&label=Profile+Views)
 
 </div>
 
@@ -32,12 +29,35 @@ const wincodex0 = {
   databases:  ["Supabase", "Firebase", "MySQL", "MongoDB", "MariaDB", "Redis", "SQLite", "Prisma"],
   cloud:      ["AWS", "Google Cloud", "Vercel", "Firebase", "Apache", "Nginx"],
   tools:      ["Git", "GitHub Actions", "Figma", "Postman", "Trello", "Vitest", "NPM"],
-  design:     ["Figma", "Adobe Photoshop", "Canva"],
-  stats:      { projects: "8+", technologies: "12+", liveSites: "3+" },
   funFact:    "I debug faster with coffee ☕ — don't test me",
 };
 ```
+
 ---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Wincodex0&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D9FF&icon_color=7B2FBE&text_color=ffffff&ring_color=00D9FF" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wincodex0&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D9FF&text_color=ffffff" />
+
+</div>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Wincodex0&theme=tokyonight&hide_border=true&background=0d1117&ring=00D9FF&fire=7B2FBE&currStreakLabel=00D9FF" />
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Wincodex0&bg_color=0d1117&color=00D9FF&line=7B2FBE&point=ffffff&hide_border=true" />
+
+</div>
+
+---
+
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -53,6 +73,7 @@ const wincodex0 = {
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
@@ -103,13 +124,15 @@ const wincodex0 = {
 
 ## 🚀 Featured Projects
 
-| Project | Description | Stack | Links |
-|---------|-------------|-------|-------|
-| 🏥 **ABR Diagnostic** | Professional medical diagnostic website with streamlined UX and reliable service information | `HTML/CSS` `JavaScript` | [View →](#) |
-| ✅ **Task Management App** | Collaborative task manager with real-time updates and team collaboration features | `Vue.js` `Firebase` `Tailwind` | [View →](#) |
-| 💸 **InspireWallet** | Modern wallet app to inspire smart spending habits with a clean, intuitive UI | `JavaScript` `Web App` `UI/UX` | [View →](#) |
+<div align="center">
 
-> ⭐ *Star any repo you find useful — it keeps the lights on!*
+| Project | Description | Stack |
+|:-------:|:-----------:|:-----:|
+| 🏥 **ABR Diagnostic** | Professional medical diagnostic website with streamlined UX and reliable service information | `HTML/CSS` `JavaScript` |
+| ✅ **Task Management App** | Collaborative task manager with real-time updates and team collaboration features | `Vue.js` `Firebase` `Tailwind` |
+| 💸 **InspireWallet** | Modern wallet app to inspire smart spending habits with a clean, intuitive UI | `JavaScript` `Web App` `UI/UX` |
+
+</div>
 
 ---
 
@@ -127,17 +150,33 @@ const wincodex0 = {
 
 ## 💼 What I Bring to the Table
 
-- ✅ **Clean, maintainable code** — documented, typed, and tested
-- ✅ **Full stack ownership** — from design mockup to deployed production
-- ✅ **Fast delivery** — lean sprints, no over-engineering
-- ✅ **Strong communication** — async-friendly, timezone-flexible
-- ✅ **UI/UX awareness** — I care how things *look*, not just how they run
+```
+✅  Clean, maintainable code    — documented, typed, and tested
+✅  Full stack ownership        — from design mockup to deployed production
+✅  Fast delivery               — lean sprints, no over-engineering
+✅  Strong communication        — async-friendly, timezone-flexible
+✅  UI/UX awareness             — I care how things look, not just how they run
+```
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Wincodex0&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" />
+
+</div>
 
 ---
 
 ## ✍️ Random Dev Quote
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<div align="center">
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+</div>
 
 ---
 
@@ -151,15 +190,8 @@ const wincodex0 = {
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wincodex0)
 
-</div>
+<br/>
 
----
-
-<div align="center">
-
-**Open to freelance work · Remote friendly · Let's build something great**
-
-[![Profile Views](https://komarev.com/ghpvc/?username=Wincodex0&color=00D9FF&style=flat-square&label=Profile+Views)](https://github.com/Wincodex0)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FBE,100:00D9FF&height=120&section=footer&animation=fadeIn" />
 
 </div>
-
