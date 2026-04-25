@@ -16,7 +16,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=Building+things+that+matter+on+the+web;React+%7C+Vue.js+%7C+Node.js+%7C+Supabase;HTML+%7C+CSS+%7C+JavaScript+%7C+Python+%7C+PHP;Clean+code.+Scalable+systems.+Real+results.)](https://git.io/typing-svg)
 
 </div>
-
+---
 ---
 
 ## 🧑‍💻 About Me
