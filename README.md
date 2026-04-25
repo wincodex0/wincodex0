@@ -1,6 +1,4 @@
-<img src="https://i.pinimg.com/originals/42/b4/22/42b4229a9ec3145edaa895b2415dd720.gif" alt="Banner" width="100%" />
 
-<div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Sherwin+%F0%9F%91%8B;Full+Stack+Developer+from+the+Philippines+%F0%9F%8C%8F;React+%7C+Vue.js+%7C+Laravel+%7C+Node.js;Clean+code.+Scalable+systems.+Real+results.;Open+to+Freelance+%F0%9F%94%93+%E2%80%94+Let%27s+work+together!)](https://git.io/typing-svg)
 
