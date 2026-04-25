@@ -37,7 +37,7 @@ const wincodex0 = {
   funFact:    "I debug faster with coffee ☕ — don't test me",
 };
 ```
-
+---
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -163,4 +163,3 @@ const wincodex0 = {
 
 </div>
 
-<!-- Built with 🕷️ cobwebs and ☕ coffee -->
