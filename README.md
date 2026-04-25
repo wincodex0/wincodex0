@@ -1,202 +1,171 @@
-# 🚀 Hi there, I'm [Your Name]!
-
-Welcome to my GitHub profile! Feel free to explore my repositories and projects.
-
----
-
-## 🎮 Interactive Contribution Game
-
-Click on the target to fire a rocket and create a fire explosion!
-
+<!-- HEADER -->
 <div align="center">
-  <iframe 
-    srcdoc="
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    body { margin: 0; overflow: hidden; background: linear-gradient(180deg, #87CEEB 0%, #E0F6FF 100%); }
-    canvas { display: block; }
-  </style>
-</head>
-<body>
-  <canvas id='rocketCanvas' width='600' height='400'></canvas>
-  <script>
-    const canvas = document.getElementById('rocketCanvas');
-    const ctx = canvas.getContext('2d');
 
-    let rocket = { x: 50, y: 350, width: 20, height: 40, vx: 0, vy: 0, launched: false, angle: 0 };
-    let target = { x: 500, y: 100, width: 80, height: 80, hit: false };
-    let fireParticles = [];
+```
+██╗    ██╗██╗███╗   ██╗ ██████╗ ██████╗ ██████╗ ███████╗██╗  ██╗ ██████╗
+██║    ██║██║████╗  ██║██╔════╝██╔═══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔═══██╗
+██║ █╗ ██║██║██╔██╗ ██║██║     ██║   ██║██║  ██║█████╗   ╚███╔╝ ██║   ██║
+██║███╗██║██║██║╚██╗██║██║     ██║   ██║██║  ██║██╔══╝   ██╔██╗ ██║   ██║
+╚███╔███╔╝██║██║ ╚████║╚██████╗╚██████╔╝██████╔╝███████╗██╔╝ ██╗╚██████╔╝
+ ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝
+```
 
-    class FireParticle {
-      constructor(x, y) {
-        this.x = x; this.y = y;
-        this.vx = (Math.random() - 0.5) * 4;
-        this.vy = Math.random() * -3 - 1;
-        this.life = 1;
-        this.decay = Math.random() * 0.03 + 0.02;
-        this.size = Math.random() * 20 + 10;
-      }
-      update() {
-        this.x += this.vx;
-        this.y += this.vy;
-        this.vy -= 0.1;
-        this.life -= this.decay;
-        this.size *= 0.95;
-      }
-      draw() {
-        ctx.save();
-        ctx.globalAlpha = this.life;
-        const gradient = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size);
-        gradient.addColorStop(0, 'rgba(255, 200, 0, 1)');
-        gradient.addColorStop(0.5, 'rgba(255, 100, 0, 0.5)');
-        gradient.addColorStop(1, 'rgba(255, 0, 0, 0)');
-        ctx.fillStyle = gradient;
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        ctx.fill();
-        ctx.restore();
-      }
-    }
+# Hey, I'm **wincodex0** 👋
+### Full Stack Developer · JS / TS / React · Open to Freelance
 
-    function drawRocket() {
-      ctx.save();
-      ctx.translate(rocket.x, rocket.y);
-      ctx.rotate(rocket.angle);
-      ctx.fillStyle = '#FF4444';
-      ctx.fillRect(-rocket.width / 2, 0, rocket.width, rocket.height);
-      ctx.fillStyle = '#FFFF00';
-      ctx.beginPath();
-      ctx.arc(0, 10, 4, 0, Math.PI * 2);
-      ctx.fill();
-      ctx.fillStyle = '#0066FF';
-      ctx.beginPath();
-      ctx.moveTo(-rocket.width / 2, rocket.height - 10);
-      ctx.lineTo(-rocket.width, rocket.height);
-      ctx.lineTo(-rocket.width / 2, rocket.height);
-      ctx.fill();
-      ctx.beginPath();
-      ctx.moveTo(rocket.width / 2, rocket.height - 10);
-      ctx.lineTo(rocket.width, rocket.height);
-      ctx.lineTo(rocket.width / 2, rocket.height);
-      ctx.fill();
-      if (rocket.launched) {
-        ctx.fillStyle = '#FF6600';
-        ctx.beginPath();
-        ctx.moveTo(-rocket.width / 2, rocket.height);
-        ctx.lineTo(rocket.width / 2, rocket.height);
-        ctx.lineTo(0, rocket.height + 15);
-        ctx.fill();
-      }
-      ctx.restore();
-    }
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=Building+things+that+matter+on+the+web;React+%7C+TypeScript+%7C+Node.js+%7C+Next.js;Clean+code.+Scalable+systems.+Real+results.)](https://git.io/typing-svg)
 
-    function drawTarget() {
-      ctx.fillStyle = target.hit ? '#888888' : '#FF6B6B';
-      ctx.fillRect(target.x, target.y, target.width, target.height);
-      ctx.fillStyle = '#FFFFFF';
-      ctx.font = 'bold 16px Arial';
-      ctx.textAlign = 'center';
-      ctx.textBaseline = 'middle';
-      ctx.fillText('No Contrib', target.x + target.width / 2, target.y + target.height / 2);
-    }
-
-    function update() {
-      if (rocket.launched) {
-        rocket.x += rocket.vx;
-        rocket.y += rocket.vy;
-        rocket.vy += 0.3;
-        if (rocket.x > target.x && rocket.x < target.x + target.width &&
-            rocket.y > target.y && rocket.y < target.y + target.height && !target.hit) {
-          target.hit = true;
-          rocket.launched = false;
-          for (let i = 0; i < 30; i++) {
-            fireParticles.push(new FireParticle(target.x + target.width / 2, target.y + target.height / 2));
-          }
-          setTimeout(() => { target.hit = false; }, 2000);
-        }
-        if (rocket.y > canvas.height || rocket.x > canvas.width) {
-          rocket.launched = false;
-          rocket.x = 50;
-          rocket.y = 350;
-        }
-      }
-      fireParticles = fireParticles.filter(p => p.life > 0);
-      fireParticles.forEach(p => p.update());
-    }
-
-    function draw() {
-      ctx.fillStyle = 'rgba(135, 206, 235, 0.1)';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      drawTarget();
-      drawRocket();
-      fireParticles.forEach(p => p.draw());
-      requestAnimationFrame(draw);
-      update();
-    }
-
-    canvas.addEventListener('click', (e) => {
-      if (!rocket.launched) {
-        const rect = canvas.getBoundingClientRect();
-        const mouseX = e.clientX - rect.left;
-        const mouseY = e.clientY - rect.top;
-        const dx = mouseX - rocket.x;
-        const dy = mouseY - rocket.y;
-        rocket.angle = Math.atan2(dy, dx);
-        const speed = 8;
-        rocket.vx = Math.cos(rocket.angle) * speed;
-        rocket.vy = Math.sin(rocket.angle) * speed;
-        rocket.launched = true;
-      }
-    });
-
-    draw();
-  </script>
-</body>
-</html>
-" 
-    width="600" 
-    height="400" 
-    style="border: 2px solid #333; border-radius: 8px; background: #87CEEB;">
-  </iframe>
 </div>
 
-**Click anywhere on the canvas to launch a rocket!** Hit the "No Contrib" target to see a fire explosion! 🎆
+---
+
+## 🕷️ Contribution Activity
+
+> *The cobwebs appear where the commits don't — a reminder that consistency beats bursts.*
+
+<!-- Replace USERNAME with your actual GitHub username -->
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=wincodex0&bg_color=0d1117&color=00d9ff&line=0d6efd&point=ffffff&area=true&hide_border=true)](https://github.com/wincodex0)
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=wincodex0&theme=dark&hide_border=true&background=0D1117&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF)](https://git.io/streak-stats)
+
+<!-- Cobweb SVG for inactive days (renders in profile README) -->
+<details>
+<summary>🕸️ <i>Inactive days look like this... (click to reveal)</i></summary>
+<br>
+
+```
+     .  *  .       .         .       *     .
+  .    ·────────────────────────────────·    .
+      /  ·──────────────────────────·  \
+  *  / / ·────────────────────────· \ \  *
+    / / / ·──────────────────────· \ \ \
+   | | | |      🕷️  no commit      | | | |
+   | | | |     the cobwebs set in  | | | |
+    \ \ \ ·──────────────────────· / / /
+  *  \ \ ·────────────────────────· / /  *
+      \  ·──────────────────────────·  /
+  .    ·────────────────────────────────·    .
+     .      *    .        .   *    .
+```
+
+> *"Empty squares build character... and spiderwebs."*
+
+</details>
+
+</div>
 
 ---
 
-## 📊 About Me
+## 🧑‍💻 About Me
 
-- 💻 Passionate developer
-- 🚀 Always learning and building
-- 🎯 Love creating interactive experiences
+```typescript
+const wincodex0 = {
+  role:       "Full Stack Developer",
+  status:     "💼 Working · 🔓 Open to Freelance",
+  location:   "🌏 Philippines",
+  languages:  ["TypeScript", "JavaScript", "HTML/CSS"],
+  frontend:   ["React", "Next.js", "Tailwind CSS", "Vite"],
+  backend:    ["Node.js", "Express", "REST APIs", "GraphQL"],
+  databases:  ["PostgreSQL", "MongoDB", "MySQL", "Supabase"],
+  tools:      ["Git", "Docker", "Vercel", "Figma", "VS Code"],
+  currentFocus: "Building scalable web apps & seeking freelance projects",
+  funFact:    "I debug faster with coffee ☕ — don't test me",
+};
+```
+
+---
 
 ## 🛠️ Tech Stack
 
-- JavaScript
-- HTML5 & CSS3
-- Canvas API
-- React/Vue/Angular (add your frameworks)
-
-## 📫 Get in Touch
-
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com)
-- **Twitter**: [@YourHandle](https://twitter.com)
-
----
-
 <div align="center">
 
-### 🌟 My Stats
+### Languages & Frameworks
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)
+### Styling & UI
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+### Backend & Database
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+### Tools & DevOps
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 </div>
 
 ---
 
-*Thanks for visiting! 🚀*
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=wincodex0&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wincodex0&layout=compact&theme=github_dark&hide_border=true&langs_count=8" />
+
+</div>
+
+---
+
+## 🚀 Featured Projects
+
+> *Work in progress — dropping soon.* 🔧
+
+| Project | Description | Stack | Status |
+|---------|-------------|-------|--------|
+| 🔨 **Project Alpha** | Full stack web application | React · Node · PostgreSQL | `In Progress` |
+| 🎨 **Project Beta** | UI component library | TypeScript · Storybook | `Planning` |
+| 🌐 **Project Gamma** | RESTful API service | Express · MongoDB | `Planning` |
+
+> ⭐ *Star any repo you find useful — it keeps the lights on!*
+
+---
+
+## 💼 What I Bring to the Table
+
+- ✅ **Clean, maintainable code** — documented, typed, and tested
+- ✅ **Full stack ownership** — from design mockup to deployed production
+- ✅ **Fast delivery** — lean sprints, no over-engineering
+- ✅ **Strong communication** — async-friendly, timezone-flexible
+- ✅ **UI/UX awareness** — I care how things *look*, not just how they run
+
+---
+
+## 📬 Let's Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/wincodex0)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wincodex0)
+
+</div>
+
+---
+
+<div align="center">
+
+**Open to freelance work · Remote friendly · Let's build something great**
+
+*Profile views:*
+![Profile Views](https://komarev.com/ghpvc/?username=wincodex0&color=00D9FF&style=flat-square)
+
+</div>
+
+<!-- Built with 🕷️ cobwebs and ☕ coffee -->
