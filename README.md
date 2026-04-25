@@ -35,29 +35,6 @@ const wincodex0 = {
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Wincodex0&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D9FF&icon_color=7B2FBE&text_color=ffffff&ring_color=00D9FF" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wincodex0&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D9FF&text_color=ffffff" />
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Wincodex0&theme=tokyonight&hide_border=true&background=0d1117&ring=00D9FF&fire=7B2FBE&currStreakLabel=00D9FF" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Wincodex0&bg_color=0d1117&color=00D9FF&line=7B2FBE&point=ffffff&hide_border=true" />
-
-</div>
-
----
-
 ## 🛠️ Tech Stack
 
 <div align="center">
