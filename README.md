@@ -1,174 +1,149 @@
-<!-- Header -->
+<img src="https://i.pinimg.com/originals/42/b4/22/42b4229a9ec3145edaa895b2415dd720.gif" alt="Banner" width="100%" />
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:7B2FBE&height=200&section=header&text=wincodex0&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20·%20JS%20/%20TS%20/%20React%20/%20Laravel%20/%20PHP&descAlignY=58&descSize=16&descColor=ccf2ff" />
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=false&width=600&lines=Building+things+that+matter+on+the+web+%F0%9F%9A%80;React+%7C+Vue.js+%7C+Laravel+%7C+Node.js+%7C+NestJS;Clean+code.+Scalable+systems.+Real+results.;Open+to+Freelance+%F0%9F%94%93+%E2%80%94+Let%27s+work+together!)](https://git.io/typing-svg)
-
-<br/>
-
-![Working](https://img.shields.io/badge/Status-Working-brightgreen?style=flat-square&logo=statuspage)
-![Freelance](https://img.shields.io/badge/Freelance-Open-00D9FF?style=flat-square&logo=freelancer)
-![Location](https://img.shields.io/badge/Location-Philippines-red?style=flat-square&logo=googlemaps&logoColor=white)
-![Profile Views](https://komarev.com/ghpvc/?username=Wincodex0&color=00D9FF&style=flat-square&label=Profile+Views)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Sherwin+%F0%9F%91%8B;Full+Stack+Developer+from+the+Philippines+%F0%9F%8C%8F;React+%7C+Vue.js+%7C+Laravel+%7C+Node.js;Clean+code.+Scalable+systems.+Real+results.;Open+to+Freelance+%F0%9F%94%93+%E2%80%94+Let%27s+work+together!)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
+## 📊 GitHub Stats & Trophies
 
-```typescript
-const wincodex0 = {
-  role:       "Full Stack Developer",
-  status:     "💼 Working · 🔓 Open to Freelance",
-  location:   "🌏 Philippines",
-  languages:  ["JavaScript", "TypeScript", "Python", "PHP", "HTML5"],
-  frontend:   ["React", "Vue.js", "Next.js", "React Native", "Tailwind CSS", "Bootstrap", "Flutter"],
-  backend:    ["Node.js", "Express.js", "NestJS", "Laravel", ".NET", "JWT", "Web3.js"],
-  databases:  ["Supabase", "Firebase", "MySQL", "MongoDB", "MariaDB", "Redis", "SQLite", "Prisma"],
-  cloud:      ["AWS", "Google Cloud", "Vercel", "Firebase", "Apache", "Nginx"],
-  tools:      ["Git", "GitHub Actions", "Figma", "Postman", "Trello", "Vitest", "NPM"],
-  funFact:    "I debug faster with coffee ☕ — don't test me",
-};
-```
+<p align="center">
+  <a href="https://github.com/Wincodex0">
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Wincodex0&cache_seconds=7200&show_icons=true&theme=tokyonight&border_radius=10" />
+  </a>
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Wincodex0&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://trophy.ryglcloud.net/?username=Wincodex0&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8" />
+</p>
 
 ---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+<table align="center" width="100%">
+<tr>
+<td align="center" width="33%">
 
-### 🗣️ Languages
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+### Programming Languages
 
-### 🎨 Frontend
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="45"/>
 
-### ⚙️ Backend & Frameworks
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+</td>
 
-### 🗄️ Databases
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
+<td align="center" width="33%">
 
-### ☁️ Cloud & Infrastructure
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+### Frontend
 
-### 🔧 Tools & DevOps
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
-![Vitest](https://img.shields.io/badge/-Vitest-252529?style=for-the-badge&logo=vitest&logoColor=FCC72B)
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="45"/>
+<img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" width="45"/>
+<img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" width="45"/>
+<img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" width="45"/>
 
-### 🎨 Design
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+</td>
 
-</div>
+<td align="center" width="33%">
 
----
+### Backend
 
-## 🚀 Featured Projects
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" width="45"/>
 
-<div align="center">
+</td>
+</tr>
 
-| Project | Description | Stack |
-|:-------:|:-----------:|:-----:|
-| 🏥 **ABR Diagnostic** | Professional medical diagnostic website with streamlined UX and reliable service information | `HTML/CSS` `JavaScript` |
-| ✅ **Task Management App** | Collaborative task manager with real-time updates and team collaboration features | `Vue.js` `Firebase` `Tailwind` |
-| 💸 **InspireWallet** | Modern wallet app to inspire smart spending habits with a clean, intuitive UI | `JavaScript` `Web App` `UI/UX` |
+<tr>
+<td align="center">
 
-</div>
+### Database
 
----
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" width="45"/>
 
-## 📈 By the Numbers
+</td>
 
-<div align="center">
+<td align="center">
 
-| 🔨 Projects Built | 🧰 Technologies | 🌐 Live Sites |
-|:-:|:-:|:-:|
-| **8+** | **12+** | **3+** |
+### Cloud & DevOps
 
-</div>
+<img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="45"/>
+<img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="45"/>
+<img src="https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original.svg" width="45"/>
+
+</td>
+
+<td align="center">
+
+### Tools & Design
+
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="45"/>
+<img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="45"/>
+<img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" width="45"/>
+<img src="https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg" width="45"/>
+<img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" width="45"/>
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 💼 What I Bring to the Table
+## 📈 Most Used Languages
 
-```
-✅  Clean, maintainable code    — documented, typed, and tested
-✅  Full stack ownership        — from design mockup to deployed production
-✅  Fast delivery               — lean sprints, no over-engineering
-✅  Strong communication        — async-friendly, timezone-flexible
-✅  UI/UX awareness             — I care how things look, not just how they run
-```
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wincodex0&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" />
+</p>
 
 ---
 
-## 🏆 GitHub Trophies
+## 🔗 Connect With Me
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Wincodex0&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" />
-
-</div>
+<p align="center">
+  <a href="mailto:sherwinrelampagos021@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=00FFFF"/>
+  </a>
+  &nbsp;
+  <a href="https://facebook.com/iowin21">
+    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://instagram.com/Shrwnnnn_">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/wincodex0">
+    <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
-## ✍️ Random Dev Quote
+## 🎮 Contribution Graph
 
-<div align="center">
-
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" />
+</p>
 
 ---
 
-## 📬 Let's Connect
-
 <div align="center">
-
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com/iowin21)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/Shrwnnnn_)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sherwinrelampagos021@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wincodex0)
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FBE,100:00D9FF&height=120&section=footer&animation=fadeIn" />
-
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
 </div>
