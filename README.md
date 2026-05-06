@@ -123,7 +123,7 @@
     <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://instagram.com/Shrwnnnn_">
+  <a href="https://instagram.com/Sherwnnnn_">
     <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/>
   </a>
   &nbsp;
